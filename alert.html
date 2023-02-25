@@ -1,0 +1,22 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="alert.css">
+    </head>
+<body>
+    <div class="pupup" id="popup" >
+        <h2>Thank You!</h2>
+        <p>Order Confirmed. Order will be Dilivered within two weeks.</p>
+        <button type="button" onclick="closePopup()">OK</button>
+            
+    </div>
+    <script>
+        let popup = document.getElementById("popup");
+        function openPopup(){
+            popup.classList.add("open-popup");
+        }
+        function closePopup(){
+            popup.classList.remove("open-popup");
+        }
+</script>
+</body>
+</html>
